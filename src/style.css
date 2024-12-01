@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    border: 1px solid rgba(160, 158, 158, 0.6); 
+}
+ 
+.content{
+    text-align: center;
+    padding: 5px 0px;
+    position: relative;
+}
+ 
+.user-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img_avatar{
+    text-align: center;
+}
+
+.description{
+    position: absolute;
+    top: -5%;
+    margin-left: 35%;
+    font-size: 14px;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(86, 86, 86);
+    color: white;
+    display: none;
+    padding: 20px;
+    z-index: 1000;
+}
+ 
+.extra{
+    border: 1px solid rgba(160, 158, 158, 0.6);
+}
+
+.two{
+    margin-top: 10px;
+    font-size: 10px !important;
+}
+.green{
+    border-color: rgb(1, 63, 1);
+    background-color: whitesmoke;
+    color: rgb(1, 63, 1);
+    width: 60%;
+}
+.red{
+    border-color: red;
+    background-color: whitesmoke;
+    color: red;
+    width: 38%;
+}
